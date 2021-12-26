@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+svg {
+  overflow: visible;
+}
+
+#legend {
+  position: absolute;
+  bottom: 0;
+}
+
+.chart {
+  padding: 25px;
+  background-color: grey;
+  box-shadow: 0 0 5px black;
+}
+
+.dot {
+  opacity: 0.7;
+}
+
+.dot:hover {
+  stroke: blue;
+  stroke-width: 3px;
+  opacity: 1;
+}
+
+.tooltip {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  display: none;
+  color: #000;
+}
